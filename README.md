@@ -4,7 +4,7 @@ A responsive furniture and home decor website built with **React** and **Tailwin
 
 ## Live Demo
 
-[View the live website](YOUR-VERCEL-LINK-HERE)
+[View the live website](https://tehzeeb-furniture-website.vercel.app/)
 
 ## Features
 

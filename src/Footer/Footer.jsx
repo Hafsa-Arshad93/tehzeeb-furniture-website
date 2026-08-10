@@ -10,7 +10,7 @@ function Footer() {
   return (
     <footer
       data-aos="fade-up"
-      className="bg-gradient-to-r from-yellow-800 via-yellow-700 to-yellow-800 text-white  italic"
+      className="bg-yellow-700 text-white italic"
     >
       <div className="max-w-7xl mx-auto px-6 py-12">
 

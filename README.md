@@ -1,168 +1,249 @@
-Tehzeeb Furniture & Home Decor
+# Tehzeeb Furniture & Home Decor
 
-A responsive furniture and home decor website built with React and Tailwind CSS. The website showcases furniture collections, product details, category-based browsing, and a contact form for customers.
+A responsive furniture and home decor website built with **React** and **Tailwind CSS**. The website showcases furniture collections, product details, category-based browsing, and a contact form for customers.
 
-Features
-Responsive design for desktop, tablet, and mobile screens
-Furniture and home decor collection
-Category-based collection browsing
-Product cards with:
-Product name
-Category
-Price
-Discount
-Savings
-Product details page
-Contact to Order functionality
-Contact form with email integration
-Smooth animations using AOS
-Navigation using React Router
-Responsive navigation menu
-Hover effects and interactive UI
-Custom Google Font styling
-Technologies Used
-React
-Tailwind CSS
-React Router DOM
-EmailJS
-AOS (Animate On Scroll)
-JavaScript
-HTML
-CSS
-Git
-GitHub
-Project Structure
+## Live Demo
 
-tehzeeb-furniture/
-│
-├── public/
-│
-├── src/
-│ ├── assets/
-│ │ ├── About/
-│ │ ├── Collection/
-│ │ ├── Header/
-│ │ ├── Hero/
-│ │ └── ViewDetails/
-│ │
-│ ├── Components/
-│ │ ├── About/
-│ │ ├── Header/
-│ │ └── ...
-│ │
-│ ├── Footer/
-│ │
-│ ├── Pages/
-│ │
-│ ├── App.jsx
-│ └── main.jsx
-│
-├── index.html
-├── package.json
-└── README.md
+[View the live website](YOUR-VERCEL-LINK-HERE)
 
-Collection Categories
+## Features
 
-The website includes different furniture and decor categories:
+* Responsive design for desktop, tablet, and mobile screens
+* Furniture and home decor collections
+* Category-based collection browsing
+* Product cards with:
 
-Wood Furniture
-Chairs
-Sofas
-Home Decor
+  * Product name
+  * Category
+  * Original price
+  * Discount percentage
+  * Discounted price
+  * Total savings
+* Product details page
+* Contact to Order functionality
+* Contact form with EmailJS integration
+* Smooth animations using AOS
+* Navigation using React Router DOM
+* Responsive navigation menu
+* Hover effects and interactive UI elements
+* Custom font styling
 
-Users can select a category from the Collection dropdown and view the related items.
+## Technologies Used
 
-Product Details
+* React
+* Tailwind CSS
+* React Router DOM
+* JavaScript
+* HTML5
+* CSS3
+* EmailJS
+* AOS (Animate On Scroll)
+* Vite
+* Git
+* GitHub
 
-The product section displays furniture products with:
+## Project Structure
 
-Product name
-Product category
-Product image
-Original price
-Discount percentage
-Discounted price
-Total savings
-Contact to Order button
-Contact Form
+The project is organized into the following main folders and files:
 
-The contact form is integrated with EmailJS so users can send inquiries directly through the website without requiring a custom backend.
+### `src/`
 
-Animations
+* **Components**
 
-AOS (Animate On Scroll) is used to add smooth animations to different sections and elements of the website.
+  * **About**
 
-Design
+    * `About.jsx`
+  * **BacktoTop**
 
-The website uses a warm furniture-inspired color palette with shades of:
+    * `BackToTop.jsx`
+  * **Collection**
 
-Brown
-Yellow
-Amber
-White
+    * `Collection.jsx`
+  * **Contact**
 
-The design focuses on creating a clean, elegant, and responsive furniture and home decor experience.
+    * `Contact.jsx`
+  * **Header**
 
-Responsive Design
+    * `NavHero.jsx`
+  * **Home**
 
-The website is designed to work across different screen sizes, including:
+    * `Hero.jsx`
+  * **ViewDetails**
 
-Mobile devices
-Tablets
-Laptops
-Desktop screens
+    * `ViewDetails.jsx`
+
+* **Footer**
+
+  * `Footer.jsx`
+
+* **Pages**
+
+  * `About.jsx`
+  * `Collection.jsx`
+  * `Contact.jsx`
+  * `Home.jsx`
+  * `ViewDetails.jsx`
+
+* **assets**
+
+  * **About**
+  * **Collection**
+
+    * **Chairs**
+    * **HomeDecor**
+    * **Sofas**
+    * **WoodFurniture**
+  * **Font.jsx**
+
+    * `DancingScript-Bold.ttf`
+    * `DancingScript-Medium.ttf`
+    * `DancingScript-Regular.ttf`
+    * `DancingScript-SemiBold.ttf`
+  * **Header**
+
+    * **NavBar**
+  * **Hero**
+  * **ViewDetails**
+
+* `App.jsx`
+
+* `App.css`
+
+* `index.css`
+
+* `main.jsx`
+
+### Root Files
+
+* `.gitignore`
+* `eslint.config.js`
+* `index.html`
+* `package.json`
+* `package-lock.json`
+* `vite.config.js`
+* `README.md`
+
+## Collection Categories
+
+The website includes the following furniture and home decor categories:
+
+* Wood Furniture
+* Chairs
+* Sofas
+* Home Decor
+
+Users can select a category from the Collection section and browse the related products.
+
+## Product Details
+
+Each product can display:
+
+* Product name
+* Product category
+* Product image
+* Original price
+* Discount percentage
+* Discounted price
+* Total savings
+* Contact to Order button
+
+The product details page provides additional information about the selected furniture item and allows customers to contact the business for orders.
+
+## Contact Form
+
+The contact form is integrated with **EmailJS**, allowing customers to send inquiries directly through the website without requiring a custom backend.
+
+## Animations
+
+**AOS (Animate On Scroll)** is used to add smooth animations to different sections and elements throughout the website.
+
+## Design
+
+The website uses a warm, furniture-inspired color palette featuring:
+
+* Brown
+* Yellow
+* Amber
+* White
+
+The design focuses on creating a clean, elegant, modern, and responsive furniture and home decor experience.
+
+## Responsive Design
+
+The website is designed to work across different screen sizes:
+
+* Mobile devices
+* Tablets
+* Laptops
+* Desktop screens
 
 The layout, typography, images, navigation, buttons, and product cards adapt to different viewport sizes.
 
-Getting Started
-1. Clone the repository
+## Getting Started
 
-git clone https://github.com/Hafsa-Arshad93/tehzeeb-furniture.git
+### Clone the Repository
 
-2. Navigate to the project
+```bash
+git clone https://github.com/Hafsa-Arshad93/tehzeeb-furniture-website.git
+```
 
+### Navigate to the Project
+
+```bash
 cd tehzeeb-furniture
+```
 
-3. Install dependencies
+### Install Dependencies
 
+```bash
 npm install
+```
 
-4. Start the development server
+### Start the Development Server
 
+```bash
 npm run dev
+```
 
 The application will then be available through the local development URL provided by Vite.
 
-Build for Production
+## Build for Production
 
 To create a production build:
 
+```bash
 npm run build
+```
 
 To preview the production build:
 
+```bash
 npm run preview
+```
 
-Future Improvements
+## Future Improvements
 
-Some features that could be added in the future:
+Possible features that could be added in the future:
 
-Shopping cart
-Product search
-Product filtering
-Individual product detail pages
-User authentication
-Online payment integration
-Backend and database integration
-Admin dashboard
-Customer reviews
-Order management
-Author
+* Shopping cart
+* Product search
+* Advanced product filtering
+* Individual product detail pages
+* User authentication
+* Online payment integration
+* Backend and database integration
+* Admin dashboard
+* Customer reviews
+* Order management
 
-Hafsa Arshad
+## Author
+
+**Hafsa Arshad**
 
 Built as a React and Tailwind CSS furniture and home decor website project.
 
-License
+## License
 
-This project is created for learning and portfolio purposes.
+Copyright © 2026 Hafsa Arshad. All rights reserved.
+
+This project is proprietary and intended for commercial use. Unauthorized copying, distribution, modification, or resale is not permitted without permission from the author.

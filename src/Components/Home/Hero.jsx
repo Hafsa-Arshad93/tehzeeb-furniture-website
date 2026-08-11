@@ -17,7 +17,7 @@ function Hero() {
           sm:px-5
           lg:px-8
           py-10
-          gap-8
+          gap-0
           2xl:max-w-[1600px]
         "
       >
@@ -39,6 +39,7 @@ function Hero() {
               transition-all
               duration-800
               hover:scale-105
+              
             "
           />
         </div>
@@ -59,6 +60,7 @@ function Hero() {
             2xl:justify-center
             2xl:items-center
             2xl:text-center
+          
           "
         >
           {/* Heading */}
@@ -71,18 +73,19 @@ function Hero() {
               text-center
               lg:text-left
               text-4xl
-          2xl:text-center
-sm:text-5xl
-md:text-5xl
-lg:text-4xl
-xl:text-6xl
-2xl:text-8xl
-              font-medium
+              2xl:text-center
+              sm:text-5xl
+               md:text-5xl
+              lg:text-4xl
+              xl:text-6xl
+             2xl:text-8xl
+               font-medium
               font-dancing
               tracking-wide
               sm:tracking-wider
               [word-spacing:10px]
               text-4xl
+              mt-4 
 
             "
           >
@@ -93,8 +96,8 @@ xl:text-6xl
           <p
             data-aos="fade-left"
             className="
-              mb-8
-              
+              mb-5
+              mt-5
               leading-relaxed
               text-amber-600
               max-w-2xl

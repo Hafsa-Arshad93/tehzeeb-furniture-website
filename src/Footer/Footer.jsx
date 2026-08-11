@@ -8,18 +8,18 @@ import {
 
 function Footer() {
   return (
-    <footer
+    <footer 
       data-aos="fade-up"
       className="bg-yellow-700 text-white italic"
     >
-      <div className="max-w-7xl mx-auto px-6 py-12">
+      <div className="max-w-7xl mx-auto px-6 py-3 sm:px-8 ">
 
         {/* Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
 
           {/* Brand */}
           <div>
-            <h2 className="font-dancing text-5xl text-yellow-200 hover:text-white transition-all duration-300">
+            <h2 className="md:pt-5 font-dancing text-4xl text-yellow-200 hover:text-white transition-all duration-300 tracking-widest">
               Tehzeeb Furniture
             </h2>
 
@@ -31,7 +31,7 @@ function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-3xl font-semibold text-yellow-200 mb-5">
+            <h3 className="text-2xl font-semibold text-yellow-200 mb-5">
               Quick Links
             </h3>
 
@@ -65,10 +65,10 @@ function Footer() {
 
               <li>
                 <Link
-                  to="/buyproduct"
+                  to="/viewdetails"
                   className="hover:text-white hover:translate-x-2 transition-all duration-300 inline-block"
                 >
-                  Buy Products
+                  View Details
                 </Link>
               </li>
 
@@ -85,23 +85,23 @@ function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-3xl font-semibold text-yellow-200 mb-5">
+            <h3 className="text-2xl font-semibold text-yellow-200 mb-5">
               Contact
             </h3>
 
             <div className="space-y-4 text-amber-100">
 
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-1">
                 <MapPin size={20} />
                 <p>Peshawar, Pakistan</p>
               </div>
 
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-1">
                 <Phone size={20} />
                 <p>+92 332 0009936</p>
               </div>
 
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-1">
                 <Mail size={20} />
                 <p>info@tehzeebfurniture.com</p>
               </div>
@@ -111,29 +111,29 @@ function Footer() {
 
           {/* Follow Us */}
           <div>
-            <h3 className="text-3xl font-semibold text-yellow-200 mb-5">
+            <h3 className="text-2xl font-semibold text-yellow-200 mb-4">
               Follow Us
             </h3>
 
-            <div className="flex gap-4">
+            <div className="flex gap-2">
 
               <a
                 href="#"
-                className="border border-yellow-300 p-3 rounded-full hover:bg-white hover:text-blue-600 hover:scale-110 transition-all duration-300"
+                className="border border-yellow-300 p-2 rounded-full hover:bg-white hover:text-blue-600 hover:scale-110 transition-all duration-300"
               >
                 <Globe size={20} />
               </a>
 
               <a
                 href="#"
-                className="border border-yellow-300 p-3 rounded-full hover:bg-white hover:text-pink-500 hover:scale-110 transition-all duration-300"
+                className="border border-yellow-300 p-2 rounded-full hover:bg-white hover:text-pink-500 hover:scale-110 transition-all duration-300"
               >
                 <Globe size={20} />
               </a>
 
               <a
                 href="#"
-                className="border border-yellow-300 p-3 rounded-full hover:bg-white hover:text-sky-500 hover:scale-110 transition-all duration-300"
+                className="border border-yellow-300 p-2 rounded-full hover:bg-white hover:text-sky-500 hover:scale-110 transition-all duration-300"
               >
                 <Globe size={20} />
               </a>
@@ -144,7 +144,7 @@ function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-yellow-400 mt-6 pt-6 text-center">
+        <div className="border-t border-yellow-400 mt-2 pt-2 text-center">
           <p className="text-amber-100 text-base">
             © 2025 Tehzeeb Furniture & Home Decor. All Rights Reserved.
           </p>

@@ -76,7 +76,7 @@ function Hero() {
               2xl:text-center
               sm:text-5xl
                md:text-5xl
-              lg:text-4xl
+              
               xl:text-6xl
              2xl:text-8xl
                font-medium
@@ -85,8 +85,9 @@ function Hero() {
               sm:tracking-wider
               [word-spacing:10px]
               text-4xl
-              mt-4 
-
+              mt-3 
+              lg:mt-1
+              lg:mb-1
             "
           >
             Tehzeeb Furniture & Home Decor
@@ -98,6 +99,8 @@ function Hero() {
             className="
               mb-5
               mt-5
+              lg:mt-3
+              lg:mb-5
               leading-relaxed
               text-amber-600
               max-w-2xl

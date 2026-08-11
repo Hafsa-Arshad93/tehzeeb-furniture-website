@@ -32,7 +32,7 @@ function Contact() {
     </h1>
 <div className="bg-white container mx-auto flex flex-col lg:flex-row gap-2 md:gap-4 lg:gap-8 px-5 py-4">
           {/* Map Section */}
-          <div className="w-full lg:w-[65%] bg-[#eee7db] rounded-lg border border-zinc-300 overflow-hidden p-3 md:p-6 flex flex-col shadow-lg md:min-h-[600px]">         
+          <div className="w-full lg:w-[55%] bg-[#eee7db] rounded-lg border border-zinc-300 overflow-hidden p-3 md:p-6 flex flex-col shadow-lg md:min-h-[600px]">         
                <div className="relative w-full h-60 md:h-96 border border-zinc-300 mb-4 rounded overflow-hidden ">
             <iframe
               width="100%"
@@ -99,7 +99,7 @@ function Contact() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="w-full  lg:w-[32%] bg-[#d8c7ae] border border-zinc-300 flex flex-col p-4   md:p-8 rounded-lg shadow-lg md:min-h-[600px]"          >
+            className="w-full  lg:w-[45%] bg-[#d8c7ae] border border-zinc-300 flex flex-col p-4   md:p-8 rounded-lg shadow-lg md:min-h-[600px]"          >
 
 
             <h2 className="text-zinc-900 text-xl mb-2 font-medium title-font">

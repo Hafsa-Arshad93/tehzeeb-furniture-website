@@ -99,7 +99,7 @@ function Contact() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="w-full lg:w-[32%] bg-[#d8c7ae] border border-zinc-300 flex flex-col p-3 md:p-6 rounded-lg shadow-lg md:min-h-[600px]"          >
+            className="w-full  lg:w-[32%] bg-[#d8c7ae] border border-zinc-300 flex flex-col p-2 md:p-6 rounded-lg shadow-lg md:min-h-[600px]"          >
 
 
             <h2 className="text-zinc-900 text-xl mb-1 font-medium title-font">

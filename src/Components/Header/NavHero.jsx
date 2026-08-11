@@ -13,7 +13,7 @@ function NavHero() {
 
           <Link
             to="/"
-            className="font-medium text-white pl-2 sm:pl-10 mb-1 mt-1 pr-5"
+            className="font-medium text-white pl-1 sm:pl-6 mb-1 mt-1 pr-1 mr-2 ml-1 sm:ml-6 flex items-center transition-all duration-300 hover:scale-105"
           >
             <img
               data-aos="fade-right"
@@ -30,15 +30,17 @@ function NavHero() {
             className="
               font-dancing
               text-yellow-950
-              text-2xl sm:text-3xl md:text-5xl
+              text-2xl
+              sm:text-3xl 
+              md:text-5xl
               font-bold
               tracking-normal
-              sm:tracking-wide
-              md:tracking-wide
+              sm:tracking-wider
               transition-all
               duration-300
               hover:text-white
               cursor-pointer
+              whitespace-nowrap
             "
           >
             Tehzeeb Furniture & Home Decor
@@ -78,7 +80,7 @@ function NavHero() {
 
 
          <div
-  className={`relative inline-block  ${
+  className={` mr-2 relative inline-block  ${
     selectedCategory ? 'bg-yellow-600' : 'bg-white'
   }`}
 >
@@ -93,20 +95,22 @@ function NavHero() {
     className="
       appearance-none
       text-yellow-900
-      text-lg sm:text-xl md:text-2xl
-      tracking-wider
+      text-medium
+     sm:text-xl 
+      md:text-2xl
+      tracking-wide
+      md:tracking-widest
       hover:text-yellow-500
       transition-colors duration-300
       bg-transparent
       outline-none
       cursor-pointer
-      pr-0
-      m-0
       text-center
+      overflow:hidden
     "
   >
     <option value="">Collection</option>
-    <option value="wood">Wood Furniture</option>
+    <option value="wood">Wood</option>
     <option value="chairs">Chairs</option>
     <option value="sofas">Sofas</option>
     <option value="decor">Home Decor</option>

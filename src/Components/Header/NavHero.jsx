@@ -93,6 +93,7 @@ function NavHero() {
   navigate(`/collection?category=${category}`);
 }}
     className="
+
       appearance-none
       text-yellow-900
       text-medium
@@ -105,28 +106,24 @@ function NavHero() {
       bg-transparent
       outline-none
       cursor-pointer
-      text-center
-      overflow:hidden
+      
     "
   >
     <option value="">Collection</option>
     <option value="wood">Wood</option>
     <option value="chairs">Chairs</option>
     <option value="sofas">Sofas</option>
-    <option value="decor">Home Decor</option>
+    <option value="decor">Decor</option>
   </select>
 
   <span
     className="
-      absolute
-      right-1
-      md:right-1
-      lg:right-3
-      top-1/2
-      -translate-y-1/2
-      pointer-events-none
-      text-yellow-950
-      text-xs
+    absolute
+  top-1/2
+  -translate-y-1/2
+  pointer-events-none
+  text-yellow-950
+  text-xs
     "
   >
     ▼

@@ -76,7 +76,6 @@ function Hero() {
               2xl:text-center
               sm:text-5xl
                md:text-5xl
-              
               xl:text-6xl
              2xl:text-8xl
                font-medium

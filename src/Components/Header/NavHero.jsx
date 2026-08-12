@@ -10,7 +10,7 @@ function NavHero() {
       {/* Navbar */}
       <header className="w-full bg-yellow-600 body-font">
         <div className="flex flex-wrap p-1 flex-row items-center">
-
+          <div className="flex items-center flex-nowrap">
           <Link
             to="/"
             className="font-medium text-white pl-1 sm:pl-6 mb-1 mt-1 pr-1 mr-2 ml-1 sm:ml-6 flex items-center transition-all duration-300 hover:scale-105"
@@ -30,22 +30,22 @@ function NavHero() {
             className="
               font-dancing
               text-yellow-950
-              text-2xl
+              text-1xl
               sm:text-3xl 
               md:text-5xl
               font-bold
-              tracking-normal
+              tracking-wider
               sm:tracking-wider
               transition-all
               duration-300
               hover:text-white
               cursor-pointer
-              whitespace-nowrap
+              text-center
             "
           >
             Tehzeeb Furniture & Home Decor
           </span>
-
+</div>
 
           {/* Nav links */}
           <nav
@@ -94,7 +94,7 @@ function NavHero() {
 }}
     className="
 
-      appearance-none
+     appearance-none
       text-yellow-900
       text-medium
      sm:text-xl 
@@ -116,19 +116,16 @@ function NavHero() {
     <option value="decor">Decor</option>
   </select>
 
-  <span
-    className="
-    absolute
-  top-1/2
-  -translate-y-1/2
-  pointer-events-none
-  text-yellow-950
-  text-xs
-    "
-  >
-    ▼
-  </span>
-</div>
+      <span
+         className="
+                absolute
+                top-1/2
+               -translate-y-1/2
+              pointer-events-none
+                text-yellow-950
+              text-xs" > 
+        ▼ </span>
+         </div>
 
 
             <NavLink
@@ -148,7 +145,7 @@ function NavHero() {
               to="/contact"
               onClick={() => setSelectedCategory('')}
               className={({ isActive }) =>
-                `text-yellow-900 text-lg sm:text-xl md:text-2xl tracking-wider hover:text-yellow-500 transition-colors duration-300  ${
+                `text-yellow-900 text-lg sm:text-xl md:text-2xl tracking-wider hover:text-yellow-500 transition-colors duration-300 mr-1 ${
                   isActive ? 'bg-yellow-600' : ''
                 }`
               }
